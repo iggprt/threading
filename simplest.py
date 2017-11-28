@@ -12,3 +12,4 @@ for i in range(10):
 	thread = threading.Thread(target = work, args=(i,))
 	thread.daemon = True
 	thread.start()
+print ("done")
